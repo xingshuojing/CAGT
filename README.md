@@ -1,4 +1,4 @@
-# Full code on colab will be released soon!
+# Full code will be released soon!
 
 PyTorch implementation of paper "CAGT: Sim-to-Real Depth Completion with Interactive Embedding Aggregation and Geometry Awareness for Transparent Objects"
 
