@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ```
 
 ## Testing
-We provide CGsyn|CGsyn+ood pretrained checkpoints at checkpoints/.
+We provide CGsyn+ood pretrained checkpoints at checkpoints/.
 
 ## Training
 
