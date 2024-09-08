@@ -1,6 +1,6 @@
 # Full code will be released soon!
 
-PyTorch implementation of "CAGT: Sim-to-Real Depth Completion with Interactive Embedding Aggregation and Geometry Awareness for Transparent Objects". The grasping video can be find at "https://youtu.be/jyhZQPdEabQ".
+PyTorch implementation of "CAGT: Sim-to-Real Depth Completion with Interactive Embedding Aggregation and Geometry Awareness for Transparent Objects". The grasping video can be find [here](https://youtu.be/jyhZQPdEabQ).
 
 ## Dataset Preparation
 ### ClearGrasp Dataset
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ```
 
 ## Testing
-We provide CGsyn+ood pretrained checkpoints at "https://drive.google.com/file/d/1LpLP0cFohM_a9mP8Uxyqi1lMm43XcqIp/view?usp=sharing".
+We provide CGsyn+ood pretrained checkpoints at [google drive](https://drive.google.com/file/d/1LpLP0cFohM_a9mP8Uxyqi1lMm43XcqIp/view?usp=sharing).
 
 ## Training
 
