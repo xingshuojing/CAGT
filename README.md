@@ -50,10 +50,8 @@ conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 pytorch-cud
 pip install causal_conv1d-1.0.0+cu118torch1.13cxx11abiFALSE-cp38-cp38-linux_x86_64.whl (This can be downloaded [here](https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.0.0).)
 pip install mmamba_ssm-1.0.1+cu118torch1.13cxx11abiFALSE-cp38-cp38-linux_x86_64.whl (This can be downloaded [here](https://github.com/state-spaces/mamba/releases/tag/v1.0.1).)
 ```
+The .whl files of causal_conv1d and mamba_ssm could be found here [causal_conv1d](https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.0.0)|[mmamba_ssm](https://github.com/state-spaces/mamba/releases/tag/v1.0.1).
 
-```bash
-pip install -r requirements.txt
-```
 
 ## Testing
 We provide CGsyn+OOD pretrained checkpoint at [google drive](https://drive.google.com/file/d/1LpLP0cFohM_a9mP8Uxyqi1lMm43XcqIp/view?usp=sharing).
