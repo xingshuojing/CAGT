@@ -27,6 +27,7 @@ TransCG dataset is now available on [official page](https://graspnet.net/transcg
 The code has been tested under
 
 - Ubuntu 20.04 + NVIDIA GeForce RTX 4090
+- Python 3.8.1
 - PyTorch 1.13.0
 
 System dependencies can be installed by:
@@ -36,14 +37,26 @@ sudo apt-get install libhdf5-10 libhdf5-serial-dev libhdf5-dev libhdf5-cpp-11
 sudo apt install libopenexr-dev zlib1g-dev openexr
 ```
 
-Other dependencies can be installed by
+Base dependencies can be installed by a conda environment:
+
+```bash
+conda env create -f environment.yaml
+```
+
+Other dependencies can be installed by:
+
+```bash
+conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 pytorch-cuda=11.7 -c pytorch -c nvidia
+pip install causal_conv1d-1.0.0+cu118torch1.13cxx11abiFALSE-cp38-cp38-linux_x86_64.whl (This can be downloaded [here](https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.0.0).)
+pip install mmamba_ssm-1.0.1+cu118torch1.13cxx11abiFALSE-cp38-cp38-linux_x86_64.whl (This can be downloaded [here](https://github.com/state-spaces/mamba/releases/tag/v1.0.1).)
+```
 
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Testing
-We provide CGsyn+OOD pretrained checkpoints at [google drive](https://drive.google.com/file/d/1LpLP0cFohM_a9mP8Uxyqi1lMm43XcqIp/view?usp=sharing).
+We provide CGsyn+OOD pretrained checkpoint at [google drive](https://drive.google.com/file/d/1LpLP0cFohM_a9mP8Uxyqi1lMm43XcqIp/view?usp=sharing).
 
 ## Training
 
