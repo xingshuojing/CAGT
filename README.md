@@ -53,5 +53,4 @@ python train.py -c ./configs/train_cgsyn_val_cgreal.yaml
 
 #Tran on CGsyn+ood and test on Transcg
 python train.py -c ./configs/train_cgsyn+ood_val_transcg.yaml
-
 ```
