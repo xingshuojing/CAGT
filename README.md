@@ -47,8 +47,8 @@ Other dependencies can be installed by:
 
 ```bash
 conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 pytorch-cuda=11.7 -c pytorch -c nvidia
-pip install causal_conv1d-1.0.0+cu118torch1.13cxx11abiFALSE-cp38-cp38-linux_x86_64.whl (This can be downloaded [here](https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.0.0).)
-pip install mmamba_ssm-1.0.1+cu118torch1.13cxx11abiFALSE-cp38-cp38-linux_x86_64.whl (This can be downloaded [here](https://github.com/state-spaces/mamba/releases/tag/v1.0.1).)
+pip install causal_conv1d-1.0.0+cu118torch1.13cxx11abiFALSE-cp38-cp38-linux_x86_64.whl
+pip install mmamba_ssm-1.0.1+cu118torch1.13cxx11abiFALSE-cp38-cp38-linux_x86_64.whl
 ```
 The .whl files of causal_conv1d and mamba_ssm could be found here [causal_conv1d](https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.0.0) | [mmamba_ssm](https://github.com/state-spaces/mamba/releases/tag/v1.0.1).
 
