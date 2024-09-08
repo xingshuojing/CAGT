@@ -26,7 +26,7 @@ TransCG dataset is now available on [official page](https://graspnet.net/transcg
 ## Requirements
 The code has been tested under
 
-- Ubuntu 16.04 + NVIDIA GeForce RTX 4090
+- Ubuntu 20.04 + NVIDIA GeForce RTX 4090
 - PyTorch 1.13.0
 
 System dependencies can be installed by:
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ```
 
 ## Testing
-We provide CGsyn+ood pretrained checkpoints at [google drive](https://drive.google.com/file/d/1LpLP0cFohM_a9mP8Uxyqi1lMm43XcqIp/view?usp=sharing).
+We provide CGsyn+OOD pretrained checkpoints at [google drive](https://drive.google.com/file/d/1LpLP0cFohM_a9mP8Uxyqi1lMm43XcqIp/view?usp=sharing).
 
 ## Training
 
